@@ -9,7 +9,3 @@ def index():
     os = platform.system()
     return render_template('index.html', machine=machine, processor=processor, os=os)
 
-# machine = "Machine : " + platform.machine()
-# processor = "Processeur : " + platform.processor()
-# os = "Os : " + platform.system()
-# login = "Login : " + os.getlogin()
