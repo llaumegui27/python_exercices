@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Mon PC</title>
+</head>
+<body>
+    
+    <h1>Les caractéristiques de mon PC !</h1>
+    <ul>
+        <li>Machine : {{machine}}</li>
+        <li>Processeur : {{processor}}</li>
+        <li>Système d'exploitation : {{os}}</li>
+    </ul>
+</body>
+</html>
